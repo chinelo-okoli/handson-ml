@@ -25,19 +25,19 @@
 
 
 ##### Core scientific packages
-jupyter==1.0.0
-matplotlib==2.2.2
-#mkl>=2018
-numpy==1.14.3
-pandas==0.22.0
-scipy==1.1.0
+jupyter
+matplotlib
+mkl
+numpy
+pandas
+scipy
 
 
 ##### Machine Learning packages
-scikit-learn==0.19.1
+scikit-learn
 
 # Optional: the XGBoost library is only used in the ensemble learning chapter.
-#xgboost==0.71
+#xgboost
 
 
 ##### Deep Learning packages
@@ -46,48 +46,49 @@ scikit-learn==0.19.1
 # you need a GPU card with CUDA Compute Capability 3.0 or higher support, and
 # you must install CUDA, cuDNN and more: see tensorflow.org for the detailed
 # installation instructions.
-tensorflow==1.8.0
-#tensorflow-gpu==1.8.0
+tensorflow
+#tensorflow-gpu
 
 # Forcing bleach to 1.5 to avoid version incompatibility when installing
 # TensorBoard.
-bleach==1.5.0
+bleach
 
-Keras==2.1.6
+Keras
 
 
 # Optional: OpenAI gym is only needed for the Reinforcement Learning chapter.
 # There are a few dependencies you need to install first, check out:
 # https://github.com/openai/gym#installing-everything
-#gym[all]==0.10.5
+#gym[all]
 # If you only want to install the Atari dependency, uncomment this line instead:
-#gym[atari]==0.10.5
+#gym[atari]
 
 
 ##### Image manipulation
-imageio==2.3.0
-Pillow==5.1.0
-scikit-image==0.13.1
+imageio
+Pillow
+scikit-image
 
 
 ##### Extra packages (optional)
 
 # Nice utility to diff Jupyter Notebooks.
-nbdime==0.4.1
+nbdime
 
 # May be useful with Pandas for complex "where" clauses (e.g., Pandas
 # tutorial).
-numexpr==2.6.5
+numexpr
 
 # Optional: these libraries can be useful in the classification chapter,
 # exercise 4.
-nltk==3.3
-urlextract==0.8.3
+nltk
+urlextract
 
 # Optional: this extension is handy to easily start/stop tensorboard
 # server(s) directly from Jupyter.
-jupyter-tensorboard==0.1.6
+tornado
+jupyter-tensorboard
 
 # Optional: these are useful Jupyter extensions, in particular to display the
 # table of contents
-jupyter-contrib-nbextensions==0.5.0
+jupyter-contrib-nbextensions
